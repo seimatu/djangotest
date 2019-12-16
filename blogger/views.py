@@ -41,3 +41,5 @@ def blog_detail(request,pk):
         'comments':comments
     }
     return render(request,'blogs/blog_detail.html',context)
+
+
